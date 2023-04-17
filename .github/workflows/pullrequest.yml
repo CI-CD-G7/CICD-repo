@@ -1,7 +1,7 @@
       - uses: actions/checkout@v3
 
       # Make changes to pull request here
-      - branch: development
+      - base: development
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
