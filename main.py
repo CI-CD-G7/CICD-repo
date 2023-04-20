@@ -1,7 +1,7 @@
 km = 12.25  # this is Kilometer!
 mi = 7.38   # this is Miles!
 
-mi_to_km = mi * 1.61 # kilometers converted to miles
+mi_to_km = mi * 1.61 # Kilometers converted to miles
 km_to_mi = km / 1.61
 
 print("This is an example about converting from miles to kilometers and from kilometers to miles!")
