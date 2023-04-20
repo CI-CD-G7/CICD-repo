@@ -1,4 +1,4 @@
-km = 12.25
+km = 12.25 # this is kilometers
 mi = 7.38 # this is miles
 
 mi_to_km = mi * 1.61
