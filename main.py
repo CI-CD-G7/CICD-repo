@@ -1,6 +1,7 @@
-km = 12.25  # this is Kilometer!
-mi = 7.38   # this is Miles!
-
+# km is an abbreviation of kilometer
+# mi is an abbreviation of miles
+km = 12.25
+mi = 7.38
 mi_to_km = mi * 1.61
 km_to_mi = km / 1.61
 
