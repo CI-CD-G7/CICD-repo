@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: development
       - name: Reset development branch
         run: |
           git fetch origin main:main
