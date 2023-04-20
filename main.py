@@ -1,3 +1,5 @@
+# km = kilometers
+# mi = miles
 km = 12.25
 mi = 7.38
 mi_to_km = mi * 1.61
