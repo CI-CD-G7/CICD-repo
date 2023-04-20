@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     name: Lint Code Base
-    runs-on: windows-latest
+    runs-on: linux-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
