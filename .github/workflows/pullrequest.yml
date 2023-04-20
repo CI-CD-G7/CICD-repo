@@ -8,9 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: main
-      - name: Reset promotion branch
+      - name: Reset main branch
         run: |
           git fetch origin main:main
           git reset --hard main
